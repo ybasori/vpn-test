@@ -1,0 +1,25 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url(./fonts/Gotham-Light.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Gotham;
+  src: url(./fonts/Gotham-Bold.otf);
+  font-weight: bold;
+}
